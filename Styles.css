@@ -1,0 +1,114 @@
+article {
+    display: block;
+    background-color: green;
+    text-align: left;
+    padding: 5px 2px;
+    text-decoration: none;
+    border: 3px;
+    border-color: #111;
+    border-style: groove;
+    width: 800px;
+    min-width: 70%;
+}
+
+button {
+    display: block;
+    background-color: green;
+    text-align: center;
+    padding: 1px 3px;
+    text-decoration: none;
+    border: 3px;
+    border-color: #111;
+    border-style: groove;
+    min-width: 5%;
+}
+
+button:hover {
+    background-color: gray;
+    min-width: 15%;
+    min-width: 100px;
+}
+
+table {
+    width: 630px;
+    min-width: 35%;
+    border: 2px;
+    border-color: #111;
+    border-style: groove;
+}
+
+body {
+    font-size: 16px;
+}
+
+footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+aside {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+aside {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+span {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: green;
+}

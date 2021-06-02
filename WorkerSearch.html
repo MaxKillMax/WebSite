@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SeekWork</title>
+
+    <script>
+        alert("Добро пожаловать, специалист!");
+    </script>
+    <script src="Timer.js"></script>
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+</head>
+
+<body>
+    <!-- Главное изображение сайта - лого -->
+    <header style="background-image:url(SeekWork.png); width: 100%; height: 100px; max-height: 20%;">
+        <h1></h1>
+        <!-- Пока что будет пусто -->
+    </header>
+
+    <!-- Ссылки на разные части сайта -->
+    <nav>
+        <ul>
+            <li><a class="active" href="WorkerSearch.html">Поиск вакансий</a></li>
+            <li><a href="CompanySearch.html">Для работодателей</a></li>
+            <span id="clock"></span>
+        </ul>
+    </nav>
+
+    <!-- Список вакансий -->
+    <main>
+
+        <!-- Каждый артикль обозначает отдельную вакансию, в которой содержится таблица описания -->
+        <!-- Откликнуться означает перейти на сайт компании(ссылку добавляет компания) -->
+        <hr />
+
+        <article>
+            <a href="https://yandex.ru/jobs/vacancies/interns/interfaces_intern/"><button>Откликнуться</button></a>
+            <b>Стажер-разработчик (интерфейсы)</b>
+            <table border="1px">
+                <tr height="20px">
+                    <th>Компания</th>
+                    <th>Зарплата</th>
+                    <th>Тип работы</th>
+                    <th>График работы</th>
+                    <th>Город работы</th>
+                    <th>Страна работы</th>
+                </tr>
+                <tr height="45px">
+                    <td>Яндекс</td>
+                    <td>Не уточнено</td>
+                    <td>Стажировка</td>
+                    <td>Не уточнено</td>
+                    <td>Не уточнено</td>
+                    <td>Россия</td>
+                </tr>
+            </table>
+        </article>
+
+        <hr />
+
+        <article>
+            <a href="https://careers.microsoft.com/professionals/us/en/job/980727/Senior-Designer"><button>Откликнуться</button></a>
+            <b>Senior Designer</b>
+            <table border="1px">
+                <tr height="20px">
+                    <th>Компания</th>
+                    <th>Зарплата</th>
+                    <th>Тип работы</th>
+                    <th>График работы</th>
+                    <th>Город работы</th>
+                    <th>Страна работы</th>
+                </tr>
+                <tr height="45px">
+                    <td>Microsoft</td>
+                    <td>Не уточнено</td>
+                    <td>Полная занятость</td>
+                    <td>Полный день</td>
+                    <td>Не уточнено</td>
+                    <td>США</td>
+                </tr>
+            </table>
+        </article>
+
+        <hr />
+
+        <article>
+            <a href="https://ea.gr8people.com/jobs/164617/software-engineer-cc?locale=en"><button>Откликнуться</button></a>
+            <b>Software Engineer - C#/C++</b>
+            <table border="1px">
+                <tr height="20px">
+                    <th>Компания</th>
+                    <th>Зарплата</th>
+                    <th>Тип работы</th>
+                    <th>График работы</th>
+                    <th>Город работы</th>
+                    <th>Страна работы</th>
+                </tr>
+                <tr height="45px">
+                    <td>Electronic Arts</td>
+                    <td>Не уточнено</td>
+                    <td>Удалённая работа</td>
+                    <td>Полный день</td>
+                    <td>Ванкувер</td>
+                    <td>Канада</td>
+                </tr>
+            </table>
+        </article>
+
+        <hr />
+
+
+        <!-- Статьи, которые будут предлагать, как улучшить резюме -->
+        <aside>
+            <h3>Как можно улучшить резюме?</h3>
+            <ul>
+                <li><a onclick="alert('Статей пока нет')">Ссылка на статью должна быть тут</a></li>
+                <li><a onclick="alert('Статей пока нет')">Ссылка на статью должна быть тут</a></li>
+                <li><a onclick="alert('Статей пока нет')">Ссылка на статью должна быть тут</a></li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <!-- Футер -->
+    <footer>
+        <p>© Севрюков Максим, Домашнее задание, 2021. Все права не защищены.</p>
+    </footer>
+</body>
+
+</html>

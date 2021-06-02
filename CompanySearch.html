@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SeekWork</title>
+
+
+    <script>
+        alert("Добро пожаловать, работодатель!");
+    </script>
+    <script src="Timer.js"></script>
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+</head>
+
+<body>
+    <!-- Главное изображение сайта - лого -->
+    <header style="background-image:url(SeekWork.png); width: 100%; height: 100px; max-height: 20%;">
+        <h1></h1>
+        <!-- Пока что будет пусто -->
+    </header>
+
+    <!-- Ссылки на разные части сайта -->
+    <nav>
+        <ul>
+            <li><a class="active" href="CompanySearch.html">Поиск резюме</a></li>
+            <li><a href="WorkerSearch.html">Для специалистов</a></li>
+            <span id="clock"></span>
+        </ul>
+    </nav>
+
+    <!-- Список резюме -->
+    <main>
+
+        <!-- Каждый артикль обозначает отдельное резюме, в котором содержится таблица описания -->
+        <!-- Пригласить означает перейти на почту работника(ссылку добавляет работник) -->
+        <hr />
+
+        <article>
+            <a onclick="alert('Здесь должен быть переход на почту/резюме специалиста')"><button>Пригласить</button></a>
+            <b>Программист Python</b>
+            <table border="1px">
+                <tr height="20px">
+                    <th>Имя</th>
+                    <th>Образование</th>
+                    <th>Опыт работы</th>
+                    <th>Желаемая зарплата</th>
+                </tr>
+                <tr height="45px">
+                    <td>Саша</td>
+                    <td>Высшее незаконченное</td>
+                    <td>Нет опыта</td>
+                    <td>30000</td>
+                </tr>
+            </table>
+        </article>
+
+        <hr />
+
+        <article>
+            <a onclick="alert('Здесь должен быть переход на почту/резюме специалиста')"><button>Пригласить</button></a>
+            <b>Тестер</b>
+            <table border="1px">
+                <tr height="20px">
+                    <th>Имя</th>
+                    <th>Образование</th>
+                    <th>Опыт работы</th>
+                    <th>Желаемая зарплата</th>
+                </tr>
+                <tr height="45px">
+                    <td>Илон</td>
+                    <td>Высшее</td>
+                    <td>1-2 года</td>
+                    <td>85000</td>
+                </tr>
+            </table>
+        </article>
+
+        <hr />
+
+        <article>
+            <a onclick="alert('Здесь должен быть переход на почту/резюме специалиста')"><button>Пригласить</button></a>
+            <b>Программист Scala</b>
+            <table border="1px">
+                <tr height="20px">
+                    <th>Имя</th>
+                    <th>Образование</th>
+                    <th>Опыт работы</th>
+                    <th>Желаемая зарплата</th>
+                </tr>
+                <tr height="45px">
+                    <td>Джон</td>
+                    <td>Среднее специальное</td>
+                    <td>1-2 года</td>
+                    <td>100000</td>
+                </tr>
+            </table>
+        </article>
+
+        <hr />
+
+    </main>
+
+    <!-- Футер -->
+    <footer>
+        <p>© Севрюков Максим, Домашнее задание, 2021. Все права не защищены.</p>
+    </footer>
+</body>
+
+</html>
